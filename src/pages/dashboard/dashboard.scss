@@ -1,0 +1,22 @@
+page-dashboard {
+    .toolbar-background{
+        background: #080536;
+    }
+    .button-inner,.toolbar-title{
+        color:white;
+    }
+    .bar-button{
+        font-size:12px;
+    }
+    button.button{
+        margin:30px 7px;
+    }
+    .tableheader{
+        font-weight: 700;
+        background-color: rgb(97, 106, 122);
+        color:white;
+    }
+    ion-row:nth-child(even){
+        background: antiquewhite;
+    }
+}

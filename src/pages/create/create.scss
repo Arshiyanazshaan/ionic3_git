@@ -1,0 +1,14 @@
+page-create {
+    
+    .row{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button-inner,.toolbar-title{
+        color:white;
+    }
+    .toolbar-background{
+        background: #080536;
+    }
+}

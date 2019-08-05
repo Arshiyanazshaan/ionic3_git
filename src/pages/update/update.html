@@ -1,0 +1,40 @@
+
+<ion-header>
+    <ion-navbar>
+      <ion-title>Update Post</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-grid>
+      <ion-row class="row">
+        <ion-col col-md-5>
+          <ion-item>
+            <ion-label floating>Title</ion-label>
+            <ion-input [(ngModel)]="title" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row class="row">
+        <ion-col col-md-5>
+          <ion-item>
+            <ion-label floating>Subject</ion-label>
+            <ion-input [(ngModel)]="subject" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row class="row">
+        <ion-col col-md-5>
+          <ion-item>
+            <ion-label floating>Body</ion-label>
+            <ion-input [(ngModel)]="body" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-md-6 class="row">
+          <button ion-button (click)="update()">Update </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>

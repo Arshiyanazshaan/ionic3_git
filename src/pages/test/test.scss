@@ -1,0 +1,44 @@
+page-test {
+    .background{
+        background-image: url('../../assets/imgs/image.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .scroll-content{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        //text-align:center;
+    }
+    ion-card.card{
+        border-radius:15px;
+    }
+    a{
+        color:#3b5998;
+        margin:10px;
+    }
+    ion-input{
+        border-radius: 25px;
+        border:1px solid gray;
+        margin:10px auto;
+        input.text-input{
+            padding-left: 10px;
+            font-size: 15px;
+        }
+    }
+    button.button{
+        border-radius: 25px;
+        background-color: #080536;
+        color:white;
+        margin-top:20px;
+    }
+    p.signup{
+        text-align: center;
+        margin:40px auto;
+    }
+    a.forgot{
+        margin:30px 20px;
+    }
+}

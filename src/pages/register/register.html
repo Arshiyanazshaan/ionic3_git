@@ -1,0 +1,84 @@
+
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Register Form</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<!-- <ion-content padding>
+    <h1>Sign Up</h1>
+  <ion-grid>
+  
+      <ion-row class="row">
+        <ion-col col-md-3>
+          <ion-item>
+            <ion-label floating>First Name</ion-label>
+            <ion-input [(ngModel)]="fname" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col col-md-3>
+          <ion-item>
+            <ion-label floating>Last Name</ion-label>
+            <ion-input [(ngModel)]="lname" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="row">
+          <ion-col col-md-6>
+            <ion-item>
+              <ion-label floating>Your Email</ion-label>
+              <ion-input [(ngModel)]="email" type="text"></ion-input>
+            </ion-item>
+          </ion-col>
+      </ion-row>
+
+      <ion-row class="row">
+          <ion-col col-md-3>
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input [(ngModel)]="pass" type="password"></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col col-md-3>
+            <ion-item>
+              <ion-label floating>Confirm Password</ion-label>
+              <ion-input [(ngModel)]="repass" type="password"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      <ion-row>
+        <ion-col col-md-6 class="row">
+          <button ion-button (click)="register()">Register </button>
+        </ion-col>
+      </ion-row>
+
+
+  </ion-grid>
+</ion-content> -->
+
+<ion-content class="background">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Sign in</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <ion-item>
+          <ion-input [(ngModel)]="fname"  placeholder="firstname" name="fname" type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input [(ngModel)]="email"  placeholder="Email" name="email" type="email"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input [(ngModel)]="pass"  placeholder="Password" name="pass" type="password"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-input [(ngModel)]="repass"  placeholder="Retype-Password" name="pass" type="password"></ion-input>
+        </ion-item>
+        <!-- /<a class="forgot">Forgot Password</a> -->
+        <button ion-button block (click)="register()">Register</button>
+        <p class="signup">Already have an account ? <a (click)="pop()">Login here</a></p>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

@@ -1,0 +1,68 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding> 
+
+  <ion-grid>
+    <form id="form">
+      <ion-row class="row">
+        <ion-col col-md-5>
+          <ion-item>
+            <ion-label floating>Username</ion-label>
+            <ion-input [(ngModel)]="user" name="user" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="row">
+        <ion-col col-md-5>
+          <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input [(ngModel)]="pass" name="pass" type="password"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row >
+        <ion-col col-md-5 class="row">
+          <button  ion-button (click)="signIn()">Sign In </button>
+        </ion-col>
+      </ion-row>
+
+      <ion-row >
+        <ion-col col-md-5>
+          <p class="row">Don't have an account?<a (click)="open('RegisterPage')">Register</a></p>
+        </ion-col>
+      </ion-row>
+     
+    </form>
+
+  </ion-grid>
+</ion-content> -->
+
+<!-- <ion-content class="background">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Sign in</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <ion-item>
+          <ion-input [(ngModel)]="user"  placeholder="Username" name="user" type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input [(ngModel)]="pass"  [(ngModel)]="pass" placeholder="Password" name="pass" type="password"></ion-input>
+        </ion-item>
+        <a class="forgot">Forgot Password</a>
+        <button ion-button block (click)="signIn()">Submit</button>
+        <p class="signup">New here ? <a (click)="open('RegisterPage')">SignUp</a></p>
+      </ion-card-content>
+    </ion-card>
+  </ion-content> -->
+
